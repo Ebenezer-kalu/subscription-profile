@@ -1,0 +1,88 @@
+body{
+
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 750px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px;
+    
+}
+.upsquare{
+    width: 429px;
+    height: 158px; 
+
+}
+h2{
+    text-align: center;
+}
+.icon-container {
+        display: flex;
+        align-items: center; /* Vertically centers items */
+    }
+    
+    .icon-container div {
+        margin-right: 40px; /* Space between items */
+        background-color: rgb(226, 226, 220);
+        color: black;
+    }
+.icons a {
+    color: black;
+}
+    
+.downsquare {
+        display: flex;
+        align-items: center; /* Vertically centers items */
+    }
+    .left-icon {
+        font-size: larger;
+    }
+    
+    .downsquare div {
+        margin-right: 35px; /* Space between items */
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .img img {
+        border-radius: 50%; /* Makes the image circular */
+        width: 91px; /* Ensure it matches the width in HTML */
+        height: 91px; /* Ensure it matches the height in HTML */
+    }
+    .illustrator {
+        font-size: x-small;
+        
+    }
+
+    .imgi img {
+        border-radius: 50%; /* Makes the image circular */
+        width: 91px; /* Ensure it matches the width in HTML */
+        height: 91px; /* Ensure it matches the height in HTML */
+    }
+
+    .artist {
+        font-size: x-small;
+    }
+    .imgii img {
+        border-radius: 50%; /* Makes the image circular */
+        width: 91px; /* Ensure it matches the width in HTML */
+        height: 91px; /* Ensure it matches the height in HTML */
+    }
+    .right-icon {
+        font-size: larger;
+    }
+    
+    .profile-button{
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+    }
+
